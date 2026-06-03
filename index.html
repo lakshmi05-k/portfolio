@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <article>
+            <h2>About Me</h2>
+            <img src="https://via.placeholder.com/150" alt="Profile">
+            <p>Hello, I am a Full Stack Web Development Intern.</p>
+        </article>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>PHP</div>
+            <div>MySQL</div>
+            <div>GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Project</th>
+                    <th>Technology</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>HTML,CSS,JS</td>
+                </tr>
+
+                <tr>
+                    <td>Login Page</td>
+                    <td>HTML,CSS</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">2 Projects</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Form</h2>
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Name"><br><br>
+
+            <input type="email" id="email" placeholder="Email"><br><br>
+
+            <textarea id="message" placeholder="Message"></textarea>
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p id="result"></p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
